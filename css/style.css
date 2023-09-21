@@ -7,7 +7,7 @@ body {
     padding: 0;
 background-image:url("https://unsplash.com/photos/3-PfUgbyWEs/download?force=true");
 ;
-
+font-family: "Exo",sans-serif;
 height: 100%;
   
     background-position: center;
@@ -15,20 +15,35 @@ height: 100%;
     background-size: cover;
   }
 
+  .logo {background: url("..images/thecakespot.png")
+background-repeat: no-repeat;
+background-size: cover;}
+
+.logo-title {text-align: center;
+color: white;
+text-transform:capitalize;
+padding: 0;
+margin: 0;
+font-family: "Brygada 1918", sans-serif;}
+
 
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rosybrown;
     color: white;
+    text-transform: capitalize;
+    font-size: 20px;
 }
 
 
 .navbar-title {
     font-size: 1.5rem;
-    margin: 5rem;
+    margin: 3rem;
+    text-decoration: none;
+   
 }
 
 .navbar-links {height: 100%;
