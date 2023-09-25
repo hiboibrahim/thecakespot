@@ -20,14 +20,42 @@ height: 100%;
 background-repeat: no-repeat;
 background-size: cover;}
 
-.logo-title {text-align: center;
-color: white;
-text-transform:capitalize;
-padding: 0;
-margin: 0;
-font-family: "Brygada 1918", sans-serif;}
+.description {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+}
+.description {
+	left: 70%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: white;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+    text-align: center;
+}
 
-
+.description button {
+    border:1px solid black;
+    background:rosybrown;
+    border-radius: 0;
+    color:#fff;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
 .navbar {
     display: flex;
     position: relative;
