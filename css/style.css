@@ -48,7 +48,7 @@ background-size: cover;}
     border-radius: 0;
     color:#fff;
     font-size: x-large;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
    
 }
 .description button:hover {
@@ -69,12 +69,13 @@ background-size: cover;}
 
 
 .navbar-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem ;
     margin: 3rem;
-    text-decoration: none;
-   
+    text-decoration:none;
 }
 
+main h3 {font-size:4.4rem;
+font-weight: 700;}
 .navbar-links {height: 100%;
 }
 
@@ -177,4 +178,33 @@ h1 {
     float: left;
    }
 
-  
+  /*Features*/
+
+  .features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: rosybrown;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
