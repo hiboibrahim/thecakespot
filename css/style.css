@@ -3,7 +3,12 @@ body {
     background-color: gray;
 }
 
-.bg {background-image: url('.images/pastries.jpeg');}
+.bg {background-image: url('.images/pastries.jpeg');
+background-repeat: no-repeat;}
+
+.bg-image {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+font-weight: bold;}
 
 .carousel-item {
     height: 500px; 
