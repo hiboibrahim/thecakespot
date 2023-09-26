@@ -3,6 +3,8 @@ body {
     background-color: gray;
 }
 
+.bg {background-image: url('.images/pastries.jpeg');}
+
 .carousel-item {
     height: 500px; 
 }
@@ -17,3 +19,9 @@ body {
     padding: 10px; /* Adjust as needed */
     text-align: center; /* Center-align the text */
 }
+
+
+
+#navbarNav {background-color: white;}
+
+h5 p {color: white;}
