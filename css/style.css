@@ -3,16 +3,9 @@ body {
     background-color: gray;
 }
 
-.bg {background-image: url('.images/pastries.jpeg');
-background-repeat: no-repeat;}
 
-.bg-image {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 25px;
-font-weight: bold;}
+.container-fluid {padding: 10px 10px 0 0 ;}
 
-.carousel-item {
-    height: 500px; 
-}
 
 .overlay-text {
     position: absolute;
@@ -24,6 +17,8 @@ font-weight: bold;}
     padding: 10px; /* Adjust as needed */
     text-align: center; /* Center-align the text */
 }
+
+li {list-style-type: none;}
 
 
 
