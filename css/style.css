@@ -2,8 +2,11 @@
 body {
     background-color: gray;
 }
+.navbar {background-color: #fff;
+padding-right: 25px;}
 
-
+.navbar-brand {font-size: large;
+color: #fff;}
 
 .container-fluid {padding: 10px 10px 0 0 ;}
 
